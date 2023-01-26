@@ -20,12 +20,18 @@ function generatePassword () {
     }
     return retVal;
     }
-
+    
+    function generatePassword() {
+        const addPassword = confirm("add password?");
+        const addChars = prompt("generate password");
+    }
+    
     function copyPassword() {
         document.getElementById("display").select();
         document.getElementById("copy");
         alert("Password  copied to  clipboard");
     }
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
