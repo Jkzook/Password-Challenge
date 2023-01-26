@@ -1,12 +1,14 @@
 // Assignment code here
 
+
 var length = Number(prompt("Enter password length between 8 and 128")),
      charType = prompt ("Enter character type: numeric, special, upperCase, lowerCase)),
      password = generatePassword();
 document.getElementById("display").value = password;
 document.getElementById('copy-btn').addEventListener('click', copyPassword);
+console.log(myArry);
 
-function generatePassword () {
+Function generatePassword () {
     var charSets = {
         lowercase: 'abcdefghijklmnopqrstuvwxyz'
         upperCase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ
